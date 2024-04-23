@@ -9,16 +9,16 @@ const Footer = () => {
     setCurrentYear(year.toString())
   }, [])
   return (
-    <footer className='text-gray-500 bg-white px-4 py-5 max-w-screen-xl mx-auto md:px-8'>
+    <footer className='bg-gray-800 text-gray-500 px-4 py-5 max-w-screen-xl mx-auto md:px-8'>
       <div className='text-left ml-6 mt-8 mb-4'>
-        <h2 className='text-xl md:text-2xl lg:text-3xl font-bold italic text-gray-800 dark:text-white'>
+        <h2 className='text-xl md:text-2xl lg:text-3xl font-bold italic text-gray-200 dark:text-white'>
           Toheeb Olawale RAJI
         </h2>
-        <p className='text-xs md:text-md lg:text-sm text-gray-600 italic dark:text-gray-400'>
+        <p className='text-xs md:text-md lg:text-sm text-gray-400 italic dark:text-gray-400'>
           Front-End Dev
         </p>
       </div>
-      <div className='max-w-4xl sm:mx-auto sm:text-center'>
+      <div className='max-w-4xl sm:mx-auto sm:text-center text-gray-400'>
         <p className='leading-relaxed mt-2 text-[15px]'>
           Specializing in frontend development with React and Next.js, I bring a
           passion for problem-solving and a commitment to delivering
@@ -30,7 +30,7 @@ const Footer = () => {
         </p>
       </div>
       <div className='mt-8 items-center justify-between sm:flex'>
-        <div className='mt-4 sm:mt-0'>
+        <div className='mt-4 sm:mt-0 text-gray-400'>
           &copy; {currentYear} PROJECT SURVIVOR All rights reserved.
         </div>
         <div className='mt-6 sm:mt-0'>

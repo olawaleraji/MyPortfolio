@@ -23,11 +23,11 @@ const Stack = (props: Props) => {
           </div>
 
           <div className='mt-3 lg:-mt-6  px-4'>
-            <h3 className='text-xl font-semibold group-hover:text-gray-600'>
+            <h3 className='text-xl font-semibold text-gray-300 group-hover:text-gray-400'>
               RouteRover
               {/* &apos; */}
             </h3>
-            <p className='mt-3'>
+            <p className='mt-3 text-gray-400'>
               RouteRover is a user-friendly web app that facilitates global car
               and motorbike rentals. It offers a seamless experience for both
               renters and merchants, enabling easy vehicle listings and rentals
@@ -52,10 +52,10 @@ const Stack = (props: Props) => {
           </div>
 
           <div className='mt-3 lg:-mt-6  px-4'>
-            <h3 className='text-xl font-semibold group-hover:text-gray-600'>
+            <h3 className='text-xl font-semibold text-gray-300 group-hover:text-gray-400'>
               Babylist
             </h3>
-            <p className='mt-3'>
+            <p className='mt-3 text-gray-400'>
               Babylist is a convenient web app designed for shopping for
               toddlers and newborns. It provides a seamless online shopping
               experience, allowing users to browse and purchase essential items
@@ -80,10 +80,10 @@ const Stack = (props: Props) => {
           </div>
 
           <div className='mt-3 lg:-mt-6  px-4'>
-            <h3 className='text-xl font-semibold group-hover:text-gray-600'>
+            <h3 className='text-xl font-semibold text-gray-300 group-hover:text-gray-400'>
               Happie
             </h3>
-            <p className='mt-3'>
+            <p className='mt-3 text-gray-400'>
               Happie is a web app simplifying shipping for individuals and
               e-commerce businesses, offering seamless local and international
               shipping solutions.

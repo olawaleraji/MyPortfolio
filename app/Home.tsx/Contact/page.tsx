@@ -81,10 +81,10 @@ const ContactFile = (props: Props) => {
     <div className=''>
       <div className='max-w-2xl p-8 lg:max-w-5xl mx-auto'>
         <div className='text-left'>
-          <h1 className='text-3xl font-bold text-gray-700 sm:text-4xl dark:text-white'>
+          <h1 className='text-3xl font-bold text-gray-200 sm:text-4xl dark:text-white'>
             Contact us
           </h1>
-          <p className='mt-1 text-gray-600 dark:text-gray-400'>
+          <p className='mt-1 text-gray-400 dark:text-gray-400'>
             I&apos;d love to talk about how I can help you.
           </p>
         </div>
@@ -93,7 +93,7 @@ const ContactFile = (props: Props) => {
           <div className='divide-y divide-opacity-10 divide-12 divide-gray-400 dark:divide-gray-800'>
             <div className='flex gap-x-7 py-6'>
               <svg
-                className='flex-shrink-0 w-6 h-6 mt-1.5 text-gray-800 dark:text-gray-200'
+                className='flex-shrink-0 w-6 h-6 mt-1.5 text-gray-400 dark:text-gray-200'
                 xmlns='http://www.w3.org/2000/svg'
                 width='16'
                 height='16'
@@ -104,10 +104,10 @@ const ContactFile = (props: Props) => {
                 <path d='M5.255 5.786a.237.237 0 0 0 .241.247h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286zm1.557 5.763c0 .533.425.927 1.01.927.609 0 1.028-.394 1.028-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94z' />
               </svg>
               <div>
-                <h3 className='font-semibold text-gray-600 dark:text-gray-200'>
+                <h3 className='font-semibold text-gray-300 dark:text-gray-200'>
                   Reach Out With Mail
                 </h3>
-                <p className='mt-1 text-sm text-gray-500'>
+                <p className='mt-1 text-sm text-gray-400'>
                   olawaleraji188@gmail.com
                 </p>
               </div>
@@ -115,7 +115,7 @@ const ContactFile = (props: Props) => {
 
             <div className='flex gap-x-7 py-6'>
               <svg
-                className='flex-shrink-0 w-6 h-6 mt-1.5 text-gray-800 dark:text-gray-200'
+                className='flex-shrink-0 w-6 h-6 mt-1.5 text-gray-400 dark:text-gray-200'
                 xmlns='http://www.w3.org/2000/svg'
                 width='16'
                 height='16'
@@ -126,10 +126,10 @@ const ContactFile = (props: Props) => {
                 <path d='M5 6a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z' />
               </svg>
               <div>
-                <h3 className='font-semibold text-gray-600 dark:text-gray-200'>
+                <h3 className='font-semibold text-gray-300 dark:text-gray-200'>
                   Phone.
                 </h3>
-                <p className='mt-1 text-sm text-gray-500'>
+                <p className='mt-1 text-sm text-gray-400'>
                   +2348081241340 & +2349014919603
                 </p>
               </div>
@@ -137,7 +137,7 @@ const ContactFile = (props: Props) => {
 
             <div className=' flex gap-x-7 py-6'>
               <svg
-                className='flex-shrink-0 w-6 h-6 mt-1.5 text-gray-800 dark:text-gray-200'
+                className='flex-shrink-0 w-6 h-6 mt-1.5 text-gray-400 dark:text-gray-200'
                 xmlns='http://www.w3.org/2000/svg'
                 width='16'
                 height='16'
@@ -148,10 +148,10 @@ const ContactFile = (props: Props) => {
                 <path d='M2 1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2H2zm12 1a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V3a1 1 0 0 1 1-1h12z' />
               </svg>
               <div>
-                <h3 className='font-semibold text-gray-600 dark:text-gray-200'>
+                <h3 className='font-semibold text-gray-300 dark:text-gray-200'>
                   Location
                 </h3>
-                <p className='mt-1 text-sm text-gray-500'>
+                <p className='mt-1 text-sm text-gray-400'>
                   Lagos, Lagos State, Nigeria.
                 </p>
               </div>
@@ -159,7 +159,7 @@ const ContactFile = (props: Props) => {
 
             <div className='flex gap-x-7 py-6'>
               <svg
-                className='flex-shrink-0 w-6 h-6 mt-1.5 text-gray-800 dark:text-gray-200'
+                className='flex-shrink-0 w-6 h-6 mt-1.5 text-gray-400 dark:text-gray-200'
                 xmlns='http://www.w3.org/2000/svg'
                 width='16'
                 height='16'
@@ -169,15 +169,15 @@ const ContactFile = (props: Props) => {
                 <path d='M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z' />
               </svg>
               <div>
-                <h3 className='font-semibold text-gray-600 mb-4 dark:text-gray-200'>
+                <h3 className='font-semibold text-gray-300 mb-4 dark:text-gray-200'>
                   Socials
                 </h3>
                 <div className='flex flex-col items-center'>
                   <div className='flex items-center space-x-4'>
                     <div className='flex items-center'>
                       <Link
-                        href='/'
-                        className='text-gray-500 transition-colors duration-300 hover:text-deep-purple-accent-400'
+                        href='https://twitter.com/savagedotjsx'
+                        className='text-gray-300 transition-colors duration-300 hover:text-deep-purple-accent-400'
                       >
                         <svg
                           data-testid='geist-icon'
@@ -198,8 +198,8 @@ const ContactFile = (props: Props) => {
                     </div>
                     <div className='flex items-center'>
                       <Link
-                        href='/'
-                        className='text-gray-500 transition-colors duration-300 hover:text-deep-purple-accent-400'
+                        href='https://github.com/savagegraphics'
+                        className='text-gray-300 transition-colors duration-300 hover:text-deep-purple-accent-400'
                       >
                         <svg
                           data-testid='geist-icon'
@@ -227,8 +227,8 @@ const ContactFile = (props: Props) => {
                     </div>
                     <div className='flex items-center'>
                       <Link
-                        href='/'
-                        className='text-gray-500 transition-colors duration-300 hover:text-deep-purple-accent-400'
+                        href='https://www.linkedin.com/in/toheeb-raji-b3a615235/'
+                        className='text-gray-300 transition-colors duration-300 hover:text-deep-purple-accent-400'
                       >
                         <svg
                           data-testid='geist-icon'
@@ -251,7 +251,7 @@ const ContactFile = (props: Props) => {
                     <div className='flex items-center'>
                       <Link
                         href='/'
-                        className='text-gray-500 transition-colors duration-300 hover:text-deep-purple-accent-400'
+                        className='text-gray-300 transition-colors duration-300 hover:text-deep-purple-accent-400'
                       >
                         <svg
                           data-testid='geist-icon'
@@ -276,7 +276,7 @@ const ContactFile = (props: Props) => {
             </div>
           </div>
           <div className='form-body flex flex-col border border-gray-300 rounded-xl p-4 sm:p-6 lg:p-8'>
-            <h2 className='mb-8 text-xl font-semibold text-gray-600 dark:text-gray-200'>
+            <h2 className='mb-8 text-xl font-semibold text-gray-200 dark:text-gray-200'>
               Fill in the form
             </h2>
 
@@ -375,7 +375,7 @@ const ContactFile = (props: Props) => {
               </div>
 
               <div className='mt-3 text-center'>
-                <p className='text-sm text-gray-500'>
+                <p className='text-sm text-gray-300'>
                   I&apos;ll get back to you in 1-2 business days.
                 </p>
               </div>

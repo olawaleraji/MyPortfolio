@@ -38,9 +38,9 @@ export default function App () {
             <Tab key='contact' title='Contact' />
           </Tabs>
         </div>
-        <div>
+        <div className=''>
           <Card className='rounded-xl mx-8 my-6'>
-            <CardBody className=''>
+            <CardBody className='bg-gray-700'>
               {selected === 'about' && (
                 <div className=''>
                   <Hero />

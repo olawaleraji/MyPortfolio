@@ -11,10 +11,10 @@ type Props = {}
 const Project = (props: Props) => {
   return (
     <Tabs>
-      <TabList>
+      <TabList textColor={'white'}>
         <Tab>All</Tab>
-        <Tab>Corporate</Tab>
         <Tab>E-commerce</Tab>
+        <Tab>Corporate</Tab>
         <Tab>Single-Page</Tab>
       </TabList>
 
@@ -27,10 +27,10 @@ const Project = (props: Props) => {
           </div>
         </TabPanel>
         <TabPanel>
-          <Card2 />
+          <Cardy />
         </TabPanel>
         <TabPanel>
-          <Cardy />
+          <Card2 />
         </TabPanel>
         <TabPanel>
           <Card />

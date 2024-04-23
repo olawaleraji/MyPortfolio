@@ -12,14 +12,14 @@ const Hero = (props: Props) => {
           <h1 className='text-sm text-indigo-600 font-medium'>
             Over 20 successful deals
           </h1>
-          <h2 className='text-2xl text-gray-800 font-extrabold md:text-4xl'>
+          <h2 className='text-2xl text-gray-200 font-extrabold md:text-4xl'>
             Hi👋🏽, <br />
             My Name is
             <br />
             Toheeb Olawale RAJI
             <br />I build Front-End for the Web
           </h2>
-          <p>
+          <p className='text-gray-400'>
             As a frontend developer deeply rooted in the React.js and Next.js
             ecosystems, I wield the power of cutting-edge technologies to craft
             seamless digital experiences. With a blend of creativity and
